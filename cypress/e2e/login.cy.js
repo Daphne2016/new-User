@@ -30,7 +30,7 @@ it('Login adm lucid',() =>{
 describe('cypress first test',()=>{
 it('Navigation',()=>{
     cy.visit('/')
-    cy.url().should('contain','admlucid')
+    cy.url().should('contain','admlucid');
     cy.title().should('eq','Home Page - Admlucid')
 
 })
